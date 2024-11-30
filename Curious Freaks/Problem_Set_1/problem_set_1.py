@@ -10,11 +10,11 @@ Name
 y
 '''
 
-# # Solution for the above problem statement 1
-# user_input = input("Enter a details: ").split()
-# print(int(user_input[0]))
-# print(user_input[1])
-# print(user_input[2])
+# Solution for the above problem statement 1
+user_input = input("Enter a details: ").split()
+print(int(user_input[0]))
+print(user_input[1])
+print(user_input[2])
 
 
 
@@ -36,14 +36,14 @@ Triangle cannot be formed
 Explanation -> We are getting 3 inputs, that is three angles of triangle, but here the sum of three angles that is 45+45+45 is not equal to 180 so Triangle cannot be formed is the output.
 '''
 
-# # Solution for the above problem statement 2
-# user_input = list(map(int,input("Enter a values for the angles: ").split()))
+# Solution for the above problem statement 2
+user_input = list(map(int,input("Enter a values for the angles: ").split()))
 
-# total = 0 
-# for value in user_input:
-#     total += int(value)
+total = 0 
+for value in user_input:
+    total += int(value)
 
-# print('triangle can be formed' if total==180 else "triangle cannot be formed")
+print('triangle can be formed' if total==180 else "triangle cannot be formed")
 
 
 
@@ -69,18 +69,18 @@ Grade A
 Explanation: Here 95 is greater than or equal to 90 so its Grade A
 '''
 
-# # Solution for the above problem statement 3
-# mark = int(input('Please enter the mark : '))
-# if mark >= 90:
-#     print('Grade A')
-# elif mark >= 80:
-#     print('Grade B')
-# elif mark >= 60:
-#     print('Grade C')
-# elif mark >= 35:
-#     print('Grade D')
-# else:
-#     print('Fail')
+# Solution for the above problem statement 3
+mark = int(input('Please enter the mark : '))
+if mark >= 90:
+    print('Grade A')
+elif mark >= 80:
+    print('Grade B')
+elif mark >= 60:
+    print('Grade C')
+elif mark >= 35:
+    print('Grade D')
+else:
+    print('Fail')
 
 
 
@@ -116,3 +116,5 @@ def size_validator(argument):
 
 value = int(input('Enter a value : '))
 print(size_validator(value))
+
+
